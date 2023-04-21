@@ -10,12 +10,24 @@ puts 3
 # Perform simple math with numbers
 puts 5*3
 puts 5.0/3.0
+
 # Strings
+puts "Hello,world!"
 
 # Combine strings together
+puts "Tacos" + " are awesome!"
 
 # Variables
+food = "tacos"
+puts food 
+
+x = 3
+y = 5
+puts x + y 
 
 # Combine strings and variables
+puts "#{x+y} tacos"
 
 # String manipulation
+puts "hello".length
+puts "How are you today?".upcase 

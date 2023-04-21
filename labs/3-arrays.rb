@@ -24,6 +24,13 @@ puts sorted_lists.inspect
 
 sorted_unique_list = sorted_lists.uniq
 puts sorted_unique_list.inspect
+
+puts "buy #{sorted_unique_list[0]}"
+puts "buy #{sorted_unique_list[1]}"
+puts "buy #{sorted_unique_list[2]}"
+puts "buy #{sorted_unique_list[3]}"
+puts "buy #{sorted_unique_list[4]}"
+puts "buy #{sorted_unique_list[5]}"
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html

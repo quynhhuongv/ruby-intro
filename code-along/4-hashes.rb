@@ -5,12 +5,15 @@
 # Hashes are lists of *key-value pairs*
 me = {
     "name" => "Huong",
-    "location" => "Evanston",
-    "status" => "Sleepy"
+    "location" => {"city" => "Chicago","state"=>"Illinois"},
+    "timeline" => [
+        {"status" => "Sleepy","posted" => "4.30pm"},
+        {"status" => "Awake","posted" => "7.30am"}
+    ]
     }
 puts me.inspect
 
 # Accessing data from the hash
-puts me["name"]
+puts me["location"]["city"]
 
 # More Complex Hashes

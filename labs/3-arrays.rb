@@ -12,6 +12,18 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+shopping_list_huong= ["milk","egg","bacon","apples"]
+puts shopping_list_huong.inspect
+shopping_list_ant = ["beer","cookies","apples"]
+puts shopping_list_ant.inspect
+combined_lists = shopping_list_huong + shopping_list_ant
+puts combined_lists.inspect
+
+sorted_lists = combined_lists.sort
+puts sorted_lists.inspect
+
+sorted_unique_list = sorted_lists.uniq
+puts sorted_unique_list.inspect
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html

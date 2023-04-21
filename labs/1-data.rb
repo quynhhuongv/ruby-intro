@@ -15,3 +15,11 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+puts "hello"
+x = rand(1..6)
+y = rand (1..6)
+puts x 
+puts y
+puts x + y 
+puts "Hello, world!"
